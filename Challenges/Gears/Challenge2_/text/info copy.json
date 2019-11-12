@@ -11,7 +11,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"In this challenge you will learn how a wheel can run faster."
+            "en":"In this challenge you will learn how to run your wheel even faster."
          },
          "challengeType":"horizontal"
       },
@@ -31,8 +31,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"Before building our next model, let's count a bit.\n40/20=2\nIt means the 40-teeth-gear doubles the speed of the 20-teeth-gear.
-         },
+            "en":"Before building our next model, let's count a bit.\n2x20=40\nIt means the 40-teeth-gear doubles the speed of the 20-teeth-gear."         },
          "challengeType":"horizontal"
       },
       {
@@ -41,7 +40,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"60/20=3\nIt means the 60-teeth-gear triples the speed of the 20-teeth-gear."
+            "en":"3x20=60\nIt means the 60-teeth-gear triples the speed of the 20-teeth-gear."
          },
          "challengeType":"horizontal"
       },
@@ -221,7 +220,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"Now let's swap the drive gear to a 40-teeth-gear. How many rounds does the wheel turn with one spin of the handler?"
+            "en":"Now let's swap the drive gear to a 40-teeth-gear. How many rounds does the wheel turn with one spin of the handle?"
          },
          "challengeType":"horizontal"
       },
@@ -231,7 +230,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"If the drive gear is two times bigger than the follow gear, it will double its speed, so the wheel will run twice as fast. In other words, with one spin of the handler our wheel will run two full circles.\n40/20=2\n20-teeth-gear with a 40-teeth-gear=2x20 teeth"
+            "en":"If the drive gear is two times bigger than the follow gear, it will double its speed, so the wheel will run twice as fast. In other words, with one spin of the handle our wheel will run two full circles.\n40/20=2\n2x20=40"
          },
          "challengeType":"horizontal"
       }, 
@@ -241,7 +240,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"Now let's use a 60-teeth-gear to rotate the wheel even faster. How many rounds does the wheel turn with one spin of the handler?"
+            "en":"Now let's use a 60-teeth-gear to rotate the wheel even faster. How many rounds does the wheel turn with one spin of the handle?"
          },
          "challengeType":"horizontal"
       },
@@ -251,14 +250,14 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"If the drive gear has three times as many teeth as the follow gear, it will triple its speed, so with one spin of the handler our wheel will rotate three full circles.\n60/20=3\n20-teeth-gear with a 60-teeth-gear=3x20 teeth"
+            "en":"If the drive gear has three times as many teeth as the follow gear, it will triple its speed, so with one spin of the handler our wheel will rotate three full circles.\n60/20=3\n3x20=60"
          },
          "challengeType":"horizontal"
       }, 
       {
          "id":"aeb86606-b152-4909-9081-f0016c3f3426",
          "title":{
-            "en":"Let us challenge you now."
+            "en":"Let us challenge you now!"
          },
          "description":{
             "en":""
@@ -268,20 +267,30 @@
 {
          "id":"beb1d816-fefe-4c7f-a8d6-92461151dff9",
          "title":{
-            "en":"Let us challenge you now."
+            "en":"Let us challenge you now!"
          },
          "description":{
             "en":"How many rounds does the wheel rotate if we attach a 60-teeth-gear(drive gear) to a 40-teeth-gear (follow gear)?"
          },
          "challengeType":"horizontal"
       }, 
-{
+      {
+         "id":"1724e9cd-69ed-4260-998b-467e7cce3063",
+         "title":{
+            "en":"Let us challenge you now!"
+         },
+         "description":{
+            "en":""
+         },
+         "challengeType":"zoomable"
+      },  
+      {
          "id":"487d6c5e-58b4-4fb8-b891-2001904024d5",
          "title":{
             "en":"Answer"
          },
          "description":{
-            "en":"The wheel moves 1.5 full circles with one spin of the handler.\n60/40=1.5\n40-teeth-gear with a 60-teeth-gear=1.5x40 teeth."
+            "en":"The wheel moves 1.5 full circles with one spin of the handle.\n60/40=1.5\n1.5x40=60"
          },
          "challengeType":"horizontal"
       },

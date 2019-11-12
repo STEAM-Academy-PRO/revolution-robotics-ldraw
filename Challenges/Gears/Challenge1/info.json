@@ -11,7 +11,7 @@
             "en":"Directions"
          },
          "description":{
-            "en":"In this challenge you will learn how the gears affect each others' direction. When two gears touch, they\'ll rotate in different directions."
+            "en":"In this challenge you will learn how the gears affect each others' direction. When two gears touch, they'll rotate in different directions."
          },
          "challengeType":"horizontal"
       },
@@ -56,9 +56,9 @@
          "challengeType":"horizontal"
       },
       {
-         "id":"dfbc90ee-3dee-4006-be79-98398db85515",
+         "id":"f56d5187-888d-4b74-8744-e3ac0e353c21",
          "title":{
-            "en":"Let us challenge you now."
+            "en":"Let us challenge you now!"
          },
          "description":{
             "en":""
@@ -68,7 +68,7 @@
       {
          "id":"dfbc90ee-3dee-4006-be79-98398db85515",
          "title":{
-            "en":"Let us challenge you now."
+            "en":"Let us challenge you now!"
          },
          "description":{
             "en":"If we continued to build the gear train, in what direction would the fifth gear rotate?"
@@ -76,6 +76,15 @@
          "challengeType":"vertical"
       },
       {
+         "id":"87f3ad42-f299-4186-a43a-bc4b23bd4ce3",
+         "title":{
+            "en":"Let us challenge you now!"
+         },
+         "description":{
+            "en":""
+         },
+         "challengeType":"zoomable"
+      },      {
          "id":"5a201243-08de-4fd4-8a50-53610bbc6ebc",
          "title":{
             "en":"Answer"

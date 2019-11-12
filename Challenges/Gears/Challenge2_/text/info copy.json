@@ -55,6 +55,15 @@
          "challengeType":"horizontal"
       },
       {
+         "id":"d7cd420c-a362-4ffb-81a2-256140ec69c2",
+         "title":{
+            "en":"Building time"
+         },
+         "description":{
+            "en":""
+         },
+         "challengeType":"zoomable"
+      },      {
          "id":"16e9fc1d-2e0e-4b1d-a617-05c1d2b2c669",
          "title":{
             "en":"Building time"

@@ -31,7 +31,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"Before building our next model, let's count a bit.\n40/20=2\nIt means the 40-teeth-gear will double the speed of the 20-teeth-gear.
+            "en":"Before building our next model, let's count a bit.\n40/20=2\nIt means the 40-teeth-gear doubles the speed of the 20-teeth-gear.
          },
          "challengeType":"horizontal"
       },
@@ -41,7 +41,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"60/20=3\nIt means the 60-teeth-gear will triple the speed of the 20-teeth-gear."
+            "en":"60/20=3\nIt means the 60-teeth-gear triples the speed of the 20-teeth-gear."
          },
          "challengeType":"horizontal"
       },
@@ -211,7 +211,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"When we use the same size of gears, they don't change the speed of the wheel, so the wheel moves one full circle with one spin of the handler."
+            "en":"When we use the same size of gears, they don't change the speed of the wheel, so the wheel rotates one full circle with one spin of the handler."
          },
          "challengeType":"horizontal"
       },
@@ -231,7 +231,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"If the drive gear is two times bigger than the follow gear, it will double its speed, so the wheel will run twice as fast, so with one spin of the handler our wheel will run two full circles.\n40/20=2\n20-teeth-gear with a 40-teeth-gear=2x20 teeth"
+            "en":"If the drive gear is two times bigger than the follow gear, it will double its speed, so the wheel will run twice as fast. In other words, with one spin of the handler our wheel will run two full circles.\n40/20=2\n20-teeth-gear with a 40-teeth-gear=2x20 teeth"
          },
          "challengeType":"horizontal"
       }, 
@@ -251,17 +251,27 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"If the drive gear has three times as many teeth as the follow gear, it will triple its speed, so with one spin of the handler our wheel will run three full circles.\n60/20=3\n20-teeth-gear with a 60-teeth-gear=3x20 teeth"
+            "en":"If the drive gear has three times as many teeth as the follow gear, it will triple its speed, so with one spin of the handler our wheel will rotate three full circles.\n60/20=3\n20-teeth-gear with a 60-teeth-gear=3x20 teeth"
          },
          "challengeType":"horizontal"
-      },   
-{
-         "id":"36095e0b-1bc0-458b-b9df-8afcb3656637",
+      }, 
+      {
+         "id":"aeb86606-b152-4909-9081-f0016c3f3426",
          "title":{
-            "en":"You've got this!"
+            "en":"Let us challenge you now."
          },
          "description":{
-            "en":"How many rounds does the wheel turn if we attach a 60-teeth-gear(drive gear) to a 40-teeth-gear (follow gear)?"
+            "en":""
+         },
+         "challengeType":"zoomable"
+      },  
+{
+         "id":"beb1d816-fefe-4c7f-a8d6-92461151dff9",
+         "title":{
+            "en":"Let us challenge you now."
+         },
+         "description":{
+            "en":"How many rounds does the wheel rotate if we attach a 60-teeth-gear(drive gear) to a 40-teeth-gear (follow gear)?"
          },
          "challengeType":"horizontal"
       }, 
@@ -278,11 +288,11 @@
       {
          "id":"de2704d9-4d73-48ba-a810-1c7d71a225b2",
          "title":{
-            "en":"Let's gear up!"
-         },
-         "description":{
             "en":"Good job!"
          },
-         "challengeType":"horizontal"
+         "description":{
+            "en":""
+         },
+         "challengeType":"zoomable"
       },  ]
 }

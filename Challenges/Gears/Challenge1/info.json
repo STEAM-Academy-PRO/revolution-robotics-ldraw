@@ -11,7 +11,7 @@
             "en":"Directions"
          },
          "description":{
-            "en":"In this challenge you will learn how the gears affect each others' direction. When two gears touch, they'll rotate in different directions."
+            "en":"In this challenge you will learn how one gear's direction can be changed."
          },
          "challengeType":"horizontal"
       },
@@ -21,7 +21,11 @@
             "en":"Directions"
          },
          "description":{
+<<<<<<< Updated upstream
             "en":"Gears affect each other while connecting, so it's crucial to have teeth and that the teeth touch one and other."
+=======
+            "en":"Two wheels without teeth don't affect each other's direction as they don't touch."
+>>>>>>> Stashed changes
          },
          "challengeType":"horizontal"
       },

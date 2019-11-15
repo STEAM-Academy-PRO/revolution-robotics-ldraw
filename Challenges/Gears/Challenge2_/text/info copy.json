@@ -49,12 +49,21 @@
          "title":{
             "en":"Building time"
          },
-         "description":{The next couple of slides will show you how to build our model for this challenge.
-            "en":""
+         "description":{
+            "en":"The next couple of slides will show you how to build our model for this challenge."
          },
          "challengeType":"horizontal"
       },
       {
+         "id":"d7cd420c-a362-4ffb-81a2-256140ec69c2",
+         "title":{
+            "en":"Building time"
+         },
+         "description":{
+            "en":""
+         },
+         "challengeType":"zoomable"
+      },      {
          "id":"16e9fc1d-2e0e-4b1d-a617-05c1d2b2c669",
          "title":{
             "en":"Building time"
@@ -185,6 +194,16 @@
          "challengeType":"zoomable"
       },
       {
+         "id":"527b867a-ac22-4225-9655-75b4fe340e3e",
+         "title":{
+            "en":"Building time"
+         },
+         "description":{
+            "en":""
+         },
+         "challengeType":"zoomable"
+      },    
+      {
          "id":"528c08b4-7307-4a17-b1e5-365db0d240e5",     
          "title":{
             "en":"Let's gear up!"
@@ -200,7 +219,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"First, let's use a 20-teeth-gear as a drive gear to move the wheel. Build the handler then position the arrow on the top part of the tyre. How many rounds does the wheel turn with one spin of the handler?"
+            "en":"First, we use a 20-teeth-gear as a drive gear to move the wheel. While checking the arrow on the tyre let's count how many rounds the wheel turns with one spin of the handle."
          },
          "challengeType":"horizontal"
       },
@@ -210,7 +229,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"When we use the same size of gears, they don't change the speed of the wheel, so the wheel rotates one full circle with one spin of the handler."
+            "en":"When we use the same size of gears, they don't change the speed of the wheel, so the wheel rotates one full circle with one spin of the handle."
          },
          "challengeType":"horizontal"
       },
@@ -250,7 +269,7 @@
             "en":"Let's gear up!"
          },
          "description":{
-            "en":"If the drive gear has three times as many teeth as the follow gear, it will triple its speed, so with one spin of the handler our wheel will rotate three full circles.\n60/20=3\n3x20=60"
+            "en":"If the drive gear has three times as many teeth as the follow gear, it will triple its speed, so with one spin of the handle our wheel will rotate three full circles.\n60/20=3\n3x20=60"
          },
          "challengeType":"horizontal"
       }, 
@@ -290,7 +309,7 @@
             "en":"Answer"
          },
          "description":{
-            "en":"The wheel moves 1.5 full circles with one spin of the handle.\n60/40=1.5\n1.5x40=60"
+            "en":"The wheel rotates 1.5 rounds with one spin of the handle.\n60/40=1.5\n1.5x40=60."
          },
          "challengeType":"horizontal"
       },
@@ -303,5 +322,6 @@
             "en":""
          },
          "challengeType":"zoomable"
-      },  ]
+      },  
+]
 }

@@ -1,17 +1,17 @@
 {
    "id":"9f1190e8-aa7f-4522-9d27-a1f7f4d55645",
    "name":{
-      "en":"Let's get started!"
+      "en":"Hello World"
    },
    "order": 3,
    "steps":[
       {
          "id":"94da02d3-9c57-4ecf-99cb-77f9c69d7842",
          "title":{
-            "en":""
+            "en":"Hello World"
          },
          "description":{
-            "en":""
+            "en":"In this exciting challenge you will learn how to program your robot. The sky is the limit, you have got endless options to make your robot move, play tunes or use its sensors. To start programmming choose the 'robots' card in your main menu."
          },
          "challengeType":"horizontal"
       },

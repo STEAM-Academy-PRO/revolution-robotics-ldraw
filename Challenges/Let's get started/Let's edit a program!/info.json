@@ -41,7 +41,7 @@
             "en":"Challenge time"
          },
          "description":{
-            "en":"Edit the existing program to start with 'play tune' then drive for six seconds forward. As the next step, let's have a full cirle to the right that repeats 2 times. Now let's create a 2-second-long pause and finally move your robot backward for 4 seconds and play the tune again at the end.  "
+            "en":"Edit the existing program to start with 'play tune' then drive for six seconds forward.<br/>Next, let's have a full cirle to the right that repeats 2 times.<br/>Now let's create a 2-second-long pause.<br/>Finally move your robot backward for 4 seconds.<br/>Play the tune again at the end."
          },
          "challengeType":"vertical"
       },
@@ -61,7 +61,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""   
+            "en":"Once you finished editing the program, let's save it by clicking on the floppy icon. Give it a name of your choice. We saved it as 'Program edit'."   
          },      
          "challengeType":"vertical"
       },
@@ -71,7 +71,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"You can reach the main menu by clicking on the arrow in the top left corner. Choose robots card in the main menu."
          },
          "challengeType":"vertical"
       },
@@ -81,7 +81,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"Let's click on the pen icon to add your newly edited program to Revvy."
          },
          "challengeType":"vertical"
       },
@@ -91,7 +91,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"First, you will see the 'Configure' map, let's choose 'Controller' here by clicking on it."
          },
          "challengeType":"vertical"
       },      {
@@ -100,7 +100,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"Let's choose an empty button by clicking on the word 'empty' of your choice."
          },
          "challengeType":"vertical"
       },
@@ -110,7 +110,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"Add your previously saved program."
          },
          "challengeType":"vertical"
       },
@@ -120,7 +120,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"Your chosen button is programmed now. Let's click on 'Play'."
          },
          "challengeType":"vertical"
       },
@@ -130,7 +130,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"Switch on the brain and and press 'Start' once your robot is ready."
          },
          "challengeType":"vertical"
       },
@@ -140,7 +140,7 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"Select your robot found via Bluetooth."
          },
          "challengeType":"vertical"
       },
@@ -150,282 +150,13 @@
             "en":"Editing a program"
          },
          "description":{
-            "en":""
+            "en":"Yeaaay! You have just edited a program which is now added to a button on your controller."
          },
-         "challengeType":"zoomable"
+         
+         "challengeType":"vertical"
       },
       {
          "id":"11e234a9-19b4-4c3f-90bd-ea62685fcaf9",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"fb5a9533-4fba-49e3-a12f-71499c2dee07",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"071c9c5b-c820-4716-ad25-04810a322148",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"3a66a414-da38-4508-84d5-da72f238d679",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"8387fc6a-bf50-4967-a1aa-5fbbbf7e60c6",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"9a2e9b29-9b32-4721-ae4d-45dc170bb0ca",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"8a4c437e-bf32-4620-b1dd-bffd9998980a",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"a74f922c-2c70-44da-b0b3-27966ce5009c",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },    
-      {
-         "id":"e2cea46c-b0c4-4f40-bbf8-b061c9d451f2",     
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"f4bd4329-6157-48ac-bc43-4a8b5fc143b9",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"4e3d3702-d37b-4b9e-9e0b-89fd850da4f1",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"6f0a008b-e2d6-4dd6-b417-382fdfef168d",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },  
-         "challengeType":"vertical"
-      },
-      {
-         "id":"853add18-019c-4896-ae9a-76efa0da3469",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"44367a2a-9003-484d-ac77-3508df07c770",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"13feadd5-2c13-498b-81eb-fed2340197da",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"e8b2c4d3-7f69-4795-9977-ffdb6cb46041",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"0cf213d3-e6d3-462b-8c5b-9ece90e7b675",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"5bcbb774-776e-4bcb-88ac-50cc8681c8f3",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""   
-         },      
-         "challengeType":"vertical"
-      },
-      {
-         "id":"dd932a46-304c-42c9-afd4-5124a9a59d23",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"afa44e51-fce9-4af9-a050-ee2498adb9e6",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"c8f975aa-9d22-49d3-b866-209e8789e5ec",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },      
-      {
-         "id":"e9ba3bdf-9207-4351-b747-2aeae6bf3e6a",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"e693e150-1d2c-4c86-ad73-c16eb38f9468",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"5567db80-bca2-4d8e-9023-739a4ad259c3",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"fa59048e-db41-4dc5-9d73-b6657df7e7f1",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"58d985cd-4888-4052-95ba-79e0758f9564",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"be75de2a-d565-4e8e-907b-bbeb3a0e0539",
-         "title":{
-            "en":"Editing a program"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"vertical"
-      },
-      {
-         "id":"81b62807-95ba-48d2-b3e5-9c8967e81d1d",
          "title":{
             "en":"Good job!"
          },

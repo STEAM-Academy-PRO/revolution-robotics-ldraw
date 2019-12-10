@@ -146,16 +146,6 @@
          "challengeType":"vertical"
       },
       {
-         "id":"ef21706b-3cfd-4cb3-9c99-cfe519d62287",
-         "title":{
-            "en":"Challenge time"
-         },
-         "description":{
-            "en":""
-         },
-         "challengeType":"zoomable"
-      },
-      {
          "id":"7a2cffdd-869e-44c4-a486-5d5ee1bd548a",
          "title":{
             "en":"Answer"

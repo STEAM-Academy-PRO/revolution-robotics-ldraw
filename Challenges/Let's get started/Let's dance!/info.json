@@ -51,7 +51,17 @@
             "en":"Let's dance!"
          },
          "description":{
-            "en":"Now turn left, and back to the right."
+            "en":"One step to the left..."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"92987c5b-a239-474b-8cb0-0ab292a58a7c",
+         "title":{
+            "en":"Let's dance!"
+         },
+         "description":{
+            "en":"...and one step to the right."
          },
          "challengeType":"vertical"
       },
@@ -61,7 +71,17 @@
             "en":"Let's dance!"
          },
          "description":{
-            "en":"Do the same dance move to the right, then step back to the left."
+            "en":"Another step to the right..."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"cb9af107-b6d8-46e8-8e13-6809a8c441e7",
+         "title":{
+            "en":"Let's dance!"
+         },
+         "description":{
+            "en":"...and now one step back to the left again."
          },
          "challengeType":"vertical"
       },

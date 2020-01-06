@@ -1,62 +1,62 @@
 {
-   "id":"d6041198-0c67-496d-9f0a-8a454dfe01e4",
+   "id":"c49aaa9d-9cd7-49a7-a270-b09da4a98cae",
    "name":{
       "en":"Torque"
    },
    "order": 4,
    "steps":[
       {
-         "id":"a8682faf-0419-4123-9436-eee93f9248c3",
+         "id":"283bbb6d-c2b7-462d-88a9-9a792fd47939",
          "title":{
             "en":"Torque"
          },
          "description":{
-            "en":"In this challenge you will learn how one gear's direction can be changed."
+            "en":"In this challenge you will learn about torque. In other words, torque is a force which makes things turn or rotate."
          },
          "challengeType":"horizontal"
       },
       {
-         "id":"25f05b1f-362a-4d9c-a30e-ca3e48777a16",
+         "id":"a077dd32-608b-4a60-9e0a-59d1cc619d2f",
          "title":{
-            "en":"Directions"
+            "en":"Torque"
          },
          "description":{
-            "en":"Two wheels without teeth don't affect each other's direction as they don't touch."
+            "en":"Review: To increase speed, you need to attach a bigger driver gear to a smaller driven gear."
          },
          "challengeType":"horizontal"
       },
       {
-         "id":"6c17e85b-a9f0-4c18-95e4-1e6760eef468",
+         "id":"72c46020-caf9-4ca5-b96a-a87055b6f697",
          "title":{
-            "en":"The power is in the teeth."
+            "en":"Torque"
          },
          "description":{
-            "en":""
-         },
-         "challengeType":"zoomable"
-      },
-      {
-         "id":"44dbc087-2964-450a-89e6-13bd895685d0",
-         "title":{
-            "en":"Directions"
-         },
-         "description":{
-            "en":"Gear train: the second gear (follow gear) will rotate in the opposite direction of the first gear (drive gear)"
+            "en":"Review: For slower motion, you need to do the opposite - attach a smaller driver gear to a bigger driven gear."
          },
          "challengeType":"horizontal"
       },
       {
-         "id":"1df74626-fe75-4476-889e-9a2320d1daf6",
+         "id":"5c5a86ea-76ab-4b38-9ecf-f89c8b5ebd22",
          "title":{
-            "en":"Directions"
+            "en":"Torque"
          },
          "description":{
-            "en":"Now let's use another gear. The direction will change again, the new follow gear will rotate in the same direction as the drive gear."
+            "en":"However, there are several situation when power is more important than speed. Let's imagine a car moving upward a hill. It's moving slowly, but with an increased power input."
          },
          "challengeType":"horizontal"
       },
       {
-         "id":"f56d5187-888d-4b74-8744-e3ac0e353c21",
+         "id":"d107f2f1-09ae-412a-9a6e-0ed3a7be8a65",
+         "title":{
+            "en":"Torque"
+         },
+         "description":{
+            "en":"Speed and torque have an opposite or inverse relationship. The faster the movement, the weaker the torque will be. However, when torque increases, the motion decreases."
+         },
+         "challengeType":"horizontal"
+      },
+      {
+         "id":"ca6ff920-a381-4fef-b01d-229e697650ee",
          "title":{
             "en":"Let us challenge you now!"
          },
@@ -66,17 +66,17 @@
          "challengeType":"zoomable"
       },
       {
-         "id":"dfbc90ee-3dee-4006-be79-98398db85515",
+         "id":"66f16120-a1d2-4f53-9b0f-1b7d7b6b7905",
          "title":{
             "en":"Let us challenge you now!"
          },
          "description":{
-            "en":"If we continued to build the gear train, in what direction would the fifth gear rotate?"
+            "en":""
          },
          "challengeType":"vertical"
       },
       {
-         "id":"87f3ad42-f299-4186-a43a-bc4b23bd4ce3",
+         "id":"be90f429-4507-4e77-b25c-d029dabbbe4f",
          "title":{
             "en":"Let us challenge you now!"
          },
@@ -85,7 +85,7 @@
          },
          "challengeType":"zoomable"
       },      {
-         "id":"5a201243-08de-4fd4-8a50-53610bbc6ebc",
+         "id":"27945848-7f8c-4d6a-a2f4-9bf058092de1",
          "title":{
             "en":"Answer"
          },
@@ -95,7 +95,7 @@
          "challengeType":"vertical"
       },
       {
-         "id":"07510756-a90b-41d6-87ed-a1670cb8aeb2",
+         "id":"c9d05976-7dff-45b6-9ec6-76025f3a7ece",
          "title":{
             "en":"Good job!!!"
          },

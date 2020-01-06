@@ -71,7 +71,7 @@
             "en":"Let us challenge you now!"
          },
          "description":{
-            "en":""
+            "en":"Build a gear train using up three gears from your kit. Which sizes will you work with? What will be their order? Note: Do not use the crown gear for this challenge."
          },
          "challengeType":"vertical"
       },
@@ -90,7 +90,7 @@
             "en":"Answer"
          },
          "description":{
-            "en":"In the same direction as the drive gear."
+            "en":"You need to use the three different gear sizes, one 60-tooth-gear, one 40-tooth-gear and one 20-tooth-gear to get the most powerful torque made by three gears from your kit."
          },
          "challengeType":"vertical"
       },

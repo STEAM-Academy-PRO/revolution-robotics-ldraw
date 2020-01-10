@@ -11,7 +11,7 @@
             "en":"Task"
          },
          "description":{
-            "en":"Place four ping pong balls on your challenge field. Get your robot to scoop them up with a cup then empty the content into your robot."
+            "en":"Place four ping pong balls on your challenge field."
          },
          "challengeType":"horizontal"
       },
@@ -21,7 +21,7 @@
             "en":"Task"
          },
          "description":{
-            "en":"Get your robot to scoop the balls up with the cup, then empty the content into your robot."
+            "en":"Get your robot to scoop the balls up with the cup then empty the content into your robot."
          },
          "challengeType":"horizontal"
       }
@@ -51,7 +51,7 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>You stepped out of the field and spilled two or more balls = 5 points<br/>You spilled <2 balls and haven't stepped out of the field = 10 points<br/>You haven't spilled any of the balls out and managed to stay within the field  = 15 points<br/>We would love to see your results, please share it thorough our forum page by clicking on the following link: "
+            "en":"Let's count your points.<br/>You stepped out of the field and spilled two or more balls = 5 points<br/>You spilled <2 balls and haven't stepped out of the field = 10 points<br/>You haven't spilled any of the balls out and managed to stay within the field  = 15 points<br/>We would love to see your results, please share it through our forum page by clicking on the following link: "
          },
          "challengeType":"horizontal"
       }

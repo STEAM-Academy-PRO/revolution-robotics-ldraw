@@ -11,7 +11,7 @@
             "en":"Task"
          },
          "description":{
-            "en":"Let's see how many cans can your robot put on the top of each other without the can tower collapsing."
+            "en":"Let's see how many cans your robot can stack up without the can tower collapsing."
          },
          "challengeType":"horizontal"
       },
@@ -31,7 +31,7 @@
             "en":"Ranking and Bonus"
          },
          "description":{
-            "en":"2 cans = Good job! Are you ready for another round?<br/>3 cans = Wow! Excellent job! Do you think you can do it even faster?<br/>4< cans = Outstanding! You are such a pro! Well done!<br/>Bonus task: Can you do the same by programing your robot?"
+            "en":"2 cans = Good job! Are you ready for another round?<br/>3 cans = Wow! Excellent job! Do you think you can stack up more next time?<br/>4< cans = Outstanding! You are such a pro! Well done!<br/>Bonus task: Can you do the same by programing your robot?"
          },
          "challengeType":"horizontal"
       },
@@ -41,7 +41,7 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>1-2 cans = 5 points<br/>3 cans = 10 points<br/>4< cans = 15 points<br/>We would love to see your results, please share it thorough our forum page by clicking on the following link: "
+            "en":"Let's count your points.<br/>2-3 cans = 5 points<br/>4 cans = 10 points<br/>5< cans = 15 points<br/>We would love to see your results, please share it through our forum page by clicking on the following link: "
          },
          "challengeType":"horizontal"
       }

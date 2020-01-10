@@ -11,7 +11,7 @@
             "en":"Task"
          },
          "description":{
-            "en":"Let's see how fast you can control your robot. Lay down your challenge field and run your robot around it as fast as it can."
+            "en":"Let's see how fast your robot runs. Lay down your challenge field and get your robot run around it as fast as it can."
          },
          "challengeType":"horizontal"
       },
@@ -41,7 +41,7 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/><20 = 5 points<br/><15 = 10 points<br/><10 = 15 points<br/>We would love to see your results, please share it thorough our forum page by clicking on the following link: "
+            "en":"Let's count your points.<br/><20 seconds = 5 points<br/><15 seconds = 10 points<br/><10 seconds = 15 points<br/>We would love to see your results, please share it through our forum page by clicking on the following link: "
          },
          "challengeType":"horizontal"
       }

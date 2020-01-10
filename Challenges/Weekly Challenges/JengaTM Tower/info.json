@@ -1,0 +1,49 @@
+{
+   "id":"4a09e680-bed9-4bda-927f-ec0818c2fb62",
+   "name":{
+      "en":"JengaTM tower"
+   },
+   "order": 10,
+   "steps":[
+      {
+         "id":"ea10af45-af2d-4407-9130-64be74fc096c",
+         "title":{
+            "en":"Task"
+         },
+         "description":{
+            "en":"Let's see how fast you can control your robot. Lay down your challenge field and run your robot around it as fast as it can."
+         },
+         "challengeType":"horizontal"
+      },
+      {
+         "id":"c420f8ea-b128-4dca-ac38-12a7e13b3bbb",
+         "title":{
+            "en":"Rules"
+         },
+         "description":{
+            "en":"The robot cannot touch the challenge field at any point."
+         },
+         "challengeType":"horizontal"
+      },
+      {
+         "id":"2bc90aec-a72f-4fcc-ad25-76527c5f9c32",
+         "title":{
+            "en":"Ranking and Bonus"
+         },
+         "description":{
+            "en":"<20 seconds = Good job! Are you ready for another round?<br/><15 seconds = Wow! Excellent job! Do you think you can do it even faster?<br/><10 = Outstanding! You are such a pro! Well done!<br/>Bonus task: Can you do the same by programing your robot?"
+         },
+         "challengeType":"horizontal"
+      },
+      {
+         "id":"c693ff9c-9750-4eae-9757-127e81ffd930",
+         "title":{
+            "en":"Share your results!"
+         },
+         "description":{
+            "en":"Let's count your points.<br/><20 = 5 points<br/><15 = 10 points<br/><10 = 15 points<br/>We would love to see your results, please share it thorough our forum page by clicking on the following link: "
+         },
+         "challengeType":"horizontal"
+      }
+   ]
+}

@@ -11,7 +11,7 @@
             "en":"Task"
          },
          "description":{
-            "en":"Grab a wheel and position it at the star line on your challenge field. Get your robot push it as far as it can."
+            "en":"Place a wheel at the start line of on the challenge field as pictured. Get your robot to roll the wheel as far as possible."
          },
          "challengeType":"horizontal"
       },
@@ -21,7 +21,7 @@
             "en":"Rules"
          },
          "description":{
-            "en":"Do not help with your bare hands, let your robot do the job. The farther the wheel run, the better."
+            "en":"Do not help with your bare hands, let your robot do the job. The farther the wheel rolls, the better."
          },
          "challengeType":"horizontal"
       },
@@ -31,7 +31,7 @@
             "en":"Ranking and Bonus"
          },
          "description":{
-            "en":"<The wheel reached the middle of the challenge field = Good job! Are you ready for another try?<br/>You managed to push the wheel till the other edge of the field = Wow! Excellent job! Do you think you can do it even farther?<br/>The wheel ran over the edge of the field  = Outstanding! You are such a pro! Well done!<br/>Bonus task: Can you do the same by programing your robot?"
+            "en":"<The wheel reached the middle of the challenge field = Good job! Are you ready for another try?<br/>You managed to push the wheel to the other edge of the field = Wow! Excellent job! Do you think you can do it even farther?<br/>The wheel ran over the edge of the field  = Outstanding!<br/>Bonus task: Can you do the same by programing your robot?"
          },
          "challengeType":"horizontal"
       },

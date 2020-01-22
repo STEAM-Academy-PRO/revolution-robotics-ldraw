@@ -41,9 +41,13 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>You stepped out the field and knocked down more than two cups = 5 points<br/>You haven't stepped out of the field and knocked down only two cups = 10 points<br/>You neither stepped out, nor knocked down any of the cups = 15 points<br/>We would love to see your results, please share your scores in our Community Forum by clicking on the following link:"
+            "en":"Let's count your points.<br/>You stepped out the field and knocked down more than two cups = 5 points<br/>You haven't stepped out of the field and knocked down only two cups = 10 points<br/>You neither stepped out, nor knocked down any of the cups = 15 points<br/>We would love to see your scores."
          },
-         "challengeType":"horizontal"
-      }
+         "buttonText": {
+         "en": "Share results"
+         },
+         "buttonUrl": "https://revolutionrobotics.discourse.group/",
+         "challengeType":"button"
+     }
    ]
 }

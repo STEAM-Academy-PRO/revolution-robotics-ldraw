@@ -11,7 +11,7 @@
             "en":"Task"
          },
          "description":{
-            "en":"Try to shoot a ping pong ball out as far as you can. Place your robot behind start line and try to shoot the ball across the length of the field. Or even farther. "
+            "en":"Try to shoot a ping pong ball out as far as you can. Place your robot behind start line and try to shoot the ball across the length of the field, or even farther. "
          },
          "challengeType":"horizontal"
       },
@@ -41,9 +41,13 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>You managed to throw the ball to the middle of the field = 5 points<br/>You reached over the middle of the field = 10 points<br/>You reached the edge of the field or even threw it farther = 15 points<br/>We would love to see your results, please share your scores in our Community Forum by clicking on the following link:"
+            "en":"Let's count your points.<br/>You managed to throw the ball to the middle of the field = 5 points<br/>You reached over the middle of the field = 10 points<br/>You reached the edge of the field or even threw it farther = 15 points<br/>We would love to see your scores."
          },
-         "challengeType":"horizontal"
+         "buttonText": {
+            "en": "Share results"
+         },
+         "buttonUrl": "https://revolutionrobotics.discourse.group/",
+         "challengeType":"button"
       }
    ]
 }

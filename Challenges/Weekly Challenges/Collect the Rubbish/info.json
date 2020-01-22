@@ -51,9 +51,13 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>You stepped out of the field and spilled two or more balls = 5 points<br/>You spilled <2 balls and haven't stepped out of the field = 10 points<br/>You haven't spilled any of the balls out and managed to stay within the field  = 15 points<br/>We would love to see your results, please share your scores in our Community Forum by clicking on the following link:"
+            "en":"Let's count your points.<br/>You stepped out of the field and spilled two or more balls = 5 points<br/>You spilled <2 balls and haven't stepped out of the field = 10 points<br/>You haven't spilled any of the balls out and managed to stay within the field  = 15 points<br/>We would love to see scores."
          },
-         "challengeType":"horizontal"
+         "buttonText": {
+            "en": "Share results"
+         },
+         "buttonUrl": "https://revolutionrobotics.discourse.group/",
+         "challengeType":"button"
       }
    ]
 }

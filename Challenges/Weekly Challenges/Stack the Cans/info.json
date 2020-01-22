@@ -41,9 +41,13 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>2-3 cans = 5 points<br/>4 cans = 10 points<br/>5< cans = 15 points<br/>We would love to see your results, please share it through our forum page by clicking on the following link: "
+            "en":"Let's count your points.<br/>2-3 cans = 5 points<br/>4 cans = 10 points<br/>5< cans = 15 points<br/>We would love to see your scores."
          },
-         "challengeType":"horizontal"
+         "buttonText": {
+            "en": "Share results"
+         },
+         "buttonUrl": "https://revolutionrobotics.discourse.group/",
+         "challengeType":"button"
       }
    ]
 }

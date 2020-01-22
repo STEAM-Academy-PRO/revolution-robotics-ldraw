@@ -11,7 +11,7 @@
             "en":"Task"
          },
          "description":{
-            "en":"Place four cups onto the challenge field the way you see in the picture. Your task is to throw five ping pong balls into the four cups. One ball per cup."
+            "en":"Place four cups onto the challenge field the way you see in the picture. Your task is to throw four ping pong balls into the four cups. One ball per cup."
          },
          "challengeType":"horizontal"
       },
@@ -31,7 +31,7 @@
             "en":"Ranking and Bonus"
          },
          "description":{
-            "en":"You managed to fill 1-2 cups in one round = Good job! Are you ready for another try?<br/>You threw the balls into 3-4 cups in one round = Wow! Excellent job! <br/><You managed to fill all the cups during the first round = Outstanding! You are such a pro! Well done!<br/>Bonus task: Can you do the same by programing your robot?"
+            "en":"You managed to fill 1 cup in a round = Good job! Are you ready for another try?<br/>You threw the balls into 2-3 cups in a round = Wow! Excellent job! <br/><You managed to fill all the cups during the first round = Outstanding! You are such a pro! Well done!<br/>Bonus task: Can you do the same by programing your robot?"
          },
          "challengeType":"horizontal"
       },
@@ -41,9 +41,13 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>1-2 cups filled = 5 points<br/>3-4 cups filled = 10 points<br/>5 cups filled = 15 points<br/>We would love to see your results, please share your scores in our Community Forum by clicking on the following link:"
+            "en":"Let's count your points.<br/>1-2 cups filled = 5 points<br/>3-4 cups filled = 10 points<br/>5 cups filled = 15 points<br/>We would love to see your scores."
          },
-         "challengeType":"horizontal"
+         "buttonText": {
+            "en": "Share results"
+         },
+         "buttonUrl": "https://revolutionrobotics.discourse.group/",
+         "challengeType":"button"
       }
    ]
 }

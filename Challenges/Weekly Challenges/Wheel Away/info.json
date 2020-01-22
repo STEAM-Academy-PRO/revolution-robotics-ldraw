@@ -41,9 +41,13 @@
             "en":"Share your results!"
          },
          "description":{
-            "en":"Let's count your points.<br/>Your robot reached the middle of the challenge field = 5 points<br/>Your robot ran over the middle of the field but stayed within it = 10 points<br/>It ran off the field = 15 points<br/>We would love to see your results, please share it through our forum page by clicking on the following link: "
+            "en":"Let's count your points.<br/>Your robot reached the middle of the challenge field = 5 points<br/>Your robot ran over the middle of the field but stayed within it = 10 points<br/>It ran off the field = 15 points<br/>We would love to see your scores."
          },
-         "challengeType":"horizontal"
+         "buttonText": {
+            "en": "Share results"
+         },
+         "buttonUrl": "https://revolutionrobotics.discourse.group/",
+         "challengeType":"button"
       }
    ]
 }

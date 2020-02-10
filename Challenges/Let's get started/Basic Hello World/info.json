@@ -1,0 +1,138 @@
+{
+   "id":"9f1190e8-aa7f-4522-9d27-a1f7f4d55645",
+   "name":{
+      "en":"Hello World"
+   },
+   "order": 3,
+   "steps":[
+      {
+         "id":"94da02d3-9c57-4ecf-99cb-77f9c69d7842",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"In this exciting challenge you will learn how to program your robot. The sky is the limit, you have endless options to make your robot move, play tunes or use its sensors. To start programmming choose the 'programs' card in your main menu."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"4e1dd44b-5605-43fe-aedc-f7cb41389bce",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"You can see your tool-list on the left of the screen. Let's click on 'move' card."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"30488e2d-3c57-4234-ab56-f2e6f0d3dc13",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"Here you can choose from different directions. Let's click on the first one. It will program your robot to move forward."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"54124aa2-00dc-4882-8cf7-c0afdb96d4e7",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"After choosing the direction, let's click on 'Test' card to apply your program." 
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"15e66778-646e-4f94-b86a-f657945aa68d",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"Make sure your robot's brain is switched on. Once it's ready, click on 'Start' card."
+         },  
+         "challengeType":"vertical"
+      },
+      {
+         "id":"ed14bfbd-7d11-4e1e-8ace-e4bfc0242442",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"Your device will search for your robot via bluetooth."   
+         },      
+         "challengeType":"vertical"
+      },
+      {
+         "id":"cff9ebe2-9a72-4958-9509-b4f2d90a5699",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"Select your robot."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"eb2f1f78-139f-4fbd-b3ad-24ad632ff318",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"Aaaand your robot has just made its first programmed steps. Well done! To finish, click on 'Stop' card."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"3a0f7f9e-08b2-4273-8427-21766c51a8ef",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"To save your program, let's click on save icon on the right."
+         },
+         "challengeType":"vertical"
+      },      {
+         "id":"7a367ff3-20fa-4f2f-960a-c247472bd315",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"Now you can name your program and add its description."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"b84f287b-c66d-48ba-96d6-9784ef5210f9",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"Press 'Done' once you are ready."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"4da13511-e027-4675-9bb9-f0f94d1b3295",
+         "title":{
+            "en":"Hello World"
+         },
+         "description":{
+            "en":"You can continue programming by adding new blocks."
+         },
+         "challengeType":"vertical"
+      },
+      {
+         "id":"7bb422ad-733c-48ce-80f8-cfc28a382681",
+         "title":{
+            "en":"Good job!"
+         },
+         "description":{
+            "en":""
+         },
+         "challengeType":"zoomable"
+      }
+]
+}

@@ -17,6 +17,16 @@
          "challengeType":"horizontal"
       },
       {
+         "id":"84a105c0-879d-4a08-b487-77bf1d34a4b5",
+         "title":{
+            "en":"Beams you will need"
+         },
+         "description":{
+            "en":"Get three beams of each type - 4x2, 6x2, 8x2."
+         },
+         "challengeType":"horizontal"
+      },
+      {
          "id":"2ddd4586-e6b9-452f-aff5-0142d725b4a4",
          "title":{
             "en":"Rules"

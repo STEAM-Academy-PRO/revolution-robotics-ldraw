@@ -1,7 +1,7 @@
 # LDrawResources
 The repository stores all the LDraw & CAD resources for robot modelling
 
-## Setup Brickling Studio for build instruction creation
+## Setup Bricklink Studio for build instruction creation
 1. We use the **BrickLink LEGO Studio** for the build instructions. Download it here: https://www.bricklink.com/v3/studio/download.page
 2. **Install & Start** the Studio app for the first time to initialise folders
     - *Note: At the very first start the app might crash, don’t worry about it. Just start it again.*

@@ -14,13 +14,20 @@ The repository stores all the LDraw & CAD resources for robot modelling
 6. **Copy** the `parts` and `connectivity` folders to the CustomParts folder
     - Windows: `%LOCALAPPDATA%\Stud.io\CustomParts`
     - Mac: `~/.local/share/Stud.io/CustomParts/`
-7. In **Studio**, from the dropdown on the left (by default set to Main), select Custom Parts
+7. Copy the global **style file** to Studio
+    - In this repository: `Studio setting/Instructions/CustomStyle/*`
+    - Copy to its location on your machine:
+        - Windows: `%LOCALAPPDATA%\Stud.io\Instructions/CustomStyle/*`
+        - Mac: `~/.local/share/Stud.io/Instructions/CustomStyle/*`
+8. In **Studio**
+    - Custom Parts: from the dropdown on the left (by default set to Main), select Custom Parts
+    - Global Style: Select it from the dropdown on the Page Design panel
 
 ## Build instruction creation & know-how
 - [Notion link](https://www.notion.so/steamacademypro/Build-instructions-e2ea71c0967e452e86dd69178eddef85)
 
 ## All robot builds
-- [Github link](https://github.com/STEAM-Academy-PRO/revolution-robotics-robot-builds)
+- [Drive link](https://drive.google.com/drive/folders/1K5lteZ-coDv6EaQ5NzyZrNBuxguR_WlL)
 
 
 

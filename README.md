@@ -11,10 +11,10 @@ The repository stores all the LDraw & CAD resources for robot modelling
     - Mac: Mac: `~/.local/share/Stud.io/CustomParts/`
     - *Note: Sometimes a fresh install comes without this folder and there's nothing to delete*
 5. The Revolution Robotics custom models can be found in this repository: `/LDraw models`
-6. **Copy** the `parts` and `connectivity` folders to the CustomParts folder
+6. **Symlink (best solution) or Copy (fallback solution)** the `parts` and `connectivity` folders to the CustomParts folder. See symlinking examples below
     - Windows: `%LOCALAPPDATA%\Stud.io\CustomParts`
     - Mac: `~/.local/share/Stud.io/CustomParts/`
-7. Copy the global **style file** to Studio
+7. **Symlink (best solution) or Copy (fallback solution)** the global `style file` to Studio
     - In this repository: `Studio setting/Instructions/CustomStyle/*`
     - Copy to its location on your machine:
         - Windows: `%LOCALAPPDATA%\Stud.io\Instructions/CustomStyle/*`
@@ -29,5 +29,7 @@ The repository stores all the LDraw & CAD resources for robot modelling
 ## All robot builds
 - [Drive link](https://drive.google.com/drive/folders/1K5lteZ-coDv6EaQ5NzyZrNBuxguR_WlL)
 
-
-
+## Symlinking examples
+- In this MAC example I store this repository under `/Users/laszlobekessy/www/steamacademy/revolution-robotics-ldraw-resources`. This is the path you want to replace with yours. The custom parts are stored under ` /Users/laszlobekessy/.local/share/Stud.io/CustomParts/`
+    - **Delete existing resources**: `rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomParts/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/Instruction/`
+    - **Symlink for all items**: `ln -s /Users/laszlobekessy/www/steamacademy/revolution-robotics-ldraw-resources/Stud.io\ resources/* /Users/laszlobekessy/.local/share/Stud.io/`

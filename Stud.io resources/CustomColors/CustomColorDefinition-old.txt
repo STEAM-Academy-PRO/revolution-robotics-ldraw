@@ -12,7 +12,7 @@ Studio Color Code	BL Color Code	LDraw Color Code	LDD color code	Studio Color Nam
 509017	74	509017	9017	Glowing Neon Cyan	Trans-Medium Blue	Glowing Neon Cyan	Glowing Neon Cyan	#01FFFF	0.75	Transparent Colors	14	to_bl,to_ldd			Glowing Neon(Render Only)
 509018	15	509018	9018	Glowing Neon Blue	Trans-Light Blue	Glowing Neon Blue	Glowing Neon Blue	#035FFF	0.75	Transparent Colors	17	to_bl,to_ldd			Glowing Neon(Render Only)
 509019	51	509019	9019	Glowing Neon Purple	Trans-Purple	Glowing Neon Purple	Glowing Neon Purple	#A117F2	0.75	Transparent Colors	20	to_bl,to_ldd			Glowing Neon(Render Only)
-509020	50	509020	9020	Glowing Neon Magenta	Trans-Dark Pink	Glowing Neon Magenta	Glowing Neon Magenta	#FE59C2	0.75	Transparent Colors	21	to_bl,to_ldd			Glowing Neon(Render Only)
+509020	50	509020	9020	Glowing Neon Pink	Trans-Dark Pink	Glowing Neon Pink	Glowing Neon Pink	#FE59C2	0.75	Transparent Colors	21	to_bl,to_ldd			Glowing Neon(Render Only)
 															
 509027	12	509027	9027	Luminous White	Trans-Clear	Luminous White	Luminous White	#FBFBFB	0.62	Transparent Colors	-1	to_bl,to_ldd			Luminous(Render Only)
 509029		509029	9029	Luminous Red		Luminous Red	Luminous Red	#C81908	0.62	Transparent Colors	1	to_bl,to_ldd			Luminous(Render Only)
@@ -32,7 +32,7 @@ Studio Color Code	BL Color Code	LDraw Color Code	LDD color code	Studio Color Nam
 509025	74	509025	9025	Luminous Soft Green	Trans-Medium Blue	Luminous Soft Green	Luminous Soft Green	#227740	0.62	Transparent Colors	12	to_bl,to_ldd			Luminous Soft(Render Only)
 509026	74	509026	9026	Luminous Soft Blue	Trans-Medium Blue	Luminous Soft Blue	Luminous Soft Blue	#001F9F	0.62	Transparent Colors	17	to_bl,to_ldd			Luminous Soft(Render Only)
 															
-509000	50	509000	9000	Translucent Dark Pink	Trans-Dark Pink	Translucent Dark Pink	Translucent Dark Pink	#FB96AB	0.5019608	Transparent Colors	0	to_bl,to_ldd			Translucent(Render Only)
+509000	50	509000	9000	Translucent Pink	Trans-Pink	Translucent Pink	Translucent Pink	#FB96AB	0.5019608	Transparent Colors	0	to_bl,to_ldd			Translucent(Render Only)
 509001	50	509001	9001	Translucent Light Purple	Trans-Dark Pink	Translucent Light Purple	Translucent Light Purple	#956F9E	0.5019608	Transparent Colors	21	to_bl,to_ldd			Translucent(Render Only)
 509002	20	509002	9002	Translucent Green	Trans-Green	Translucent Green	Translucent Green	#227740	0.5019608	Transparent Colors	12	to_bl,to_ldd			Translucent(Render Only)
 509003	16	509003	9003	Translucent Neon Green	Trans-Neon Green	Translucent Neon Green	Translucent Neon Green	#BFFE00	0.5019608	Transparent Colors	9	to_bl,to_ldd			Translucent(Render Only)

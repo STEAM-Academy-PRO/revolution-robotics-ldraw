@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <eyesight> 
-<material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_DARK_PINK" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+<material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_PINK" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />
     <color name="RGB" value="0.984 0.588 0.670" />
@@ -27,7 +27,7 @@
 <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_LIGHT_PURPLE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />
-    <color name="RGB" value="0.584 0.435 0.619" />
+    <color name="RGB" value="0.831 0.615 0.878" />
     <add_closure name="AddShader" />
     <translucent_bsdf name="TranslucentBSDF">
       <input name="Normal" type="vector" value="0.0 0.0 0.0" />
@@ -51,7 +51,7 @@
 <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />
-    <color name="RGB" value="0.133 0.466 0.250" />
+    <color name="RGB" value="0 0.839 0.698" />
     <add_closure name="AddShader" />
     <translucent_bsdf name="TranslucentBSDF">
       <input name="Normal" type="vector" value="0.0 0.0 0.0" />
@@ -99,7 +99,7 @@
 <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_DARK_BLUE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />
-    <color name="RGB" value="0 0.121 0.623" />
+    <color name="RGB" value="0.125 0.270 0.890" />
     <add_closure name="AddShader" />
     <translucent_bsdf name="TranslucentBSDF">
       <input name="Normal" type="vector" value="0.0 0.0 0.0" />
@@ -147,7 +147,7 @@
 <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_RED" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />
-    <color name="RGB" value="0.784 0.098 0.031" />
+    <color name="RGB" value="0.858 0.105 0.035" />
     <add_closure name="AddShader" />
     <translucent_bsdf name="TranslucentBSDF">
       <input name="Normal" type="vector" value="0.0 0.0 0.0" />
@@ -171,7 +171,7 @@
 <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_YELLOW" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />
-    <color name="RGB" value="0.956 0.8 0.180" />
+    <color name="RGB" value="0.921 0.921 0.176" />
     <add_closure name="AddShader" />
     <translucent_bsdf name="TranslucentBSDF">
       <input name="Normal" type="vector" value="0.0 0.0 0.0" />
@@ -820,7 +820,7 @@
     <connect from_node="TranslucentBSDF" from_socket="BSDF" to_node="AddShader" to_socket="Shader2" />
   </shader>
 </material>
-<material displacement_method="bump" heterogeneous_volume="False" name="TRANS-GLOWING_NEON_MAGENTA" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+<material displacement_method="bump" heterogeneous_volume="False" name="TRANS-GLOWING_NEON_PINK" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />
     <color name="RGB" value="1 0.027 0.227" />

@@ -27,3 +27,4 @@ The repository stores all the LDraw & CAD resources for robot modelling in Stud.
 - In this MAC example I store this repository under `/Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw`. This is the path you want to replace with yours. The Stud.io app data is stored under `/Users/laszlobekessy/.local/share/Stud.io/`
     - **Delete existing resources**: `rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomParts/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/Instruction/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomColors/`
     - **Symlink for all items**: `ln -s /Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw/Stud.io\ resources/* /Users/laszlobekessy/.local/share/Stud.io/`
+    - If you want to use a different version of the kit, just symlink the coddect folder, e.g.: `v1-from-2018-to-2024-06`

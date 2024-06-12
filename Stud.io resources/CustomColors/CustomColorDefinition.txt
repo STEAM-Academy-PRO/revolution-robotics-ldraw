@@ -40,3 +40,8 @@ Studio Color Code	BL Color Code	LDraw Color Code	LDD color code	Studio Color Nam
 509005	12	509005	9005	Translucent Light Blue	Trans-Clear	Translucent Light Blue	Translucent Light Blue	#ADE8EE	0.5019608	Transparent Colors	16	to_bl,to_ldd			Translucent(Render Only)
 509006	18	509006	9006	Translucent Red	Trans-Neon Orange	Translucent Red	Translucent Red	#C81908	0.5019608	Transparent Colors	1	to_bl,to_ldd			Translucent(Render Only)
 509007	19	509007	9007	Translucent Yellow	Trans-Yellow	Translucent Yellow	Translucent Yellow	#F4CC2E	0.5019608	Transparent Colors	8	to_bl,to_ldd			Translucent(Render Only)
+
+509200	509200	509200	509200	RR Gray	RR Gray	RR Gray	RR Gray	#253746	1.0	Solid Colors	20	to_bl,to_ldd			Revolution Robotics
+509201	509201	509201	509201	RR Yellow	RR Yellow	RR Yellow	RR Yellow	#FFD700	1.0	Solid Colors	20	to_bl,to_ldd			Revolution Robotics
+509202	509202	509202	509202	RR Green	RR Green	RR Green	RR Green	#44D62C	1.0	Solid Colors	20	to_bl,to_ldd			Revolution Robotics
+509203	509203	509203	509203	RR Purple	RR Purple	RR Purple	RR Purple	#5F259F	1.0	Solid Colors	20	to_bl,to_ldd			Revolution Robotics

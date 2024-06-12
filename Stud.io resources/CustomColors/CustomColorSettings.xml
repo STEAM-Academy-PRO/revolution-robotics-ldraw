@@ -1,5 +1,59 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <eyesight> 
+<!-- STEAM Academy -->
+<material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR-GRAY" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+  <shader>
+    <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+      <input name="BaseColor" type="color" />
+      <input name="SubsurfaceColor" type="color" />
+      <output name="Shader" type="closure" />
+    </group>
+    <color name="RGB" value="0.1450980392 0.2156862745 0.2745098039" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+    <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+  </shader>
+</material>
+<material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR-YELLOW" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+  <shader>
+    <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+      <input name="BaseColor" type="color" />
+      <input name="SubsurfaceColor" type="color" />
+      <output name="Shader" type="closure" />
+    </group>
+    <color name="RGB" value="1.0 0.8431372549 0.0" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+    <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+  </shader>
+</material>
+<material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR-GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+  <shader>
+    <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+      <input name="BaseColor" type="color" />
+      <input name="SubsurfaceColor" type="color" />
+      <output name="Shader" type="closure" />
+    </group>
+    <color name="RGB" value="0.2666666667 0.8392156863 0.1725490196" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+    <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+  </shader>
+</material>
+<material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR-PURPLE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+  <shader>
+    <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+      <input name="BaseColor" type="color" />
+      <input name="SubsurfaceColor" type="color" />
+      <output name="Shader" type="closure" />
+    </group>
+    <color name="RGB" value="0.3725490196 0.1450980392 0.6235294118" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+    <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+    <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+  </shader>
+</material>
+
 <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-TRANSLUCENT_DARK_PINK" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
   <shader>
     <color name="RGB_White" value="1.0 1.0 1.0" />

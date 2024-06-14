@@ -1,30 +1,138 @@
 # Revolution Robotics LDraw
 The repository stores all the LDraw & CAD resources for robot modelling in Stud.io
 
+# Disclaimer
+There's now two versions from the Revolution Robotics Challenge kit.
+- **Version 1**: from 2018 to 2024-06 (`white` Brain with `red` motors and `white, blue and yellow` plastic parts)
+- **Version 2**: from 2024-06 (`dark gray` Brain with `purple` motors and `gray, purple, green and yellow` plastic parts)
+
+Because of the colour change, the Stud.io resources needed to be separated as well. folder BUT `setting up your machine is also different`. Simply put, Stud.io is serving our need but is not a great software (*this is a common strong opinion by the team*). For the gray Brain we needed to change core application files instead of the user-specific ones, because the very same code works in the core and doesn't work in the user lib. Bummer!
+
+Use the parts fitting your model version and don't forget to change the setup if you need to fall back to older models.
+
+# Version 2 (latest): from 2024-06
 ## Setup Bricklink Stud.io for build instruction creation
 1. We use **BrickLink LEGO Studio** for the build instructions. Download it here: https://www.bricklink.com/v3/studio/download.page
 2. **Install & Start** the Studio app for the first time to initialise folders
-    - *Note: At the very first start the app might crash, don’t worry about it. Just start it again.*
 3. After the first successful start close Studio
-4. Open the **Stud.io App data** location and check if exists
-    - Windows: `%LOCALAPPDATA%\Stud.io\`
-    - Mac: Mac: `~/.local/share/Stud.io/`
-5. **Symlink (best solution) or Copy (fallback solution)** the **Stud.io App data folder** to
-    - Windows: `%LOCALAPPDATA%\Stud.io\CustomParts`
-    - Mac: `~/.local/share/Stud.io/CustomParts/`
-    - See [full command examples below](#symlinking-examples)
-6. In **Studio**
-    - Custom Parts: from the dropdown on the left (by default set to Main), select Custom Parts
-    - Global Style: Select it from the dropdown on the Page Design panel
+4. Locate the **core application folder**
+    - Mac: `/Applications/Studio 2.0/`
+    - Win: `FIXME`
+5. You need to **define the kit colors** for the instruction maker. 
+    - Locate the `StudioColorDefinition.txt`
+        - Mac: `/Applications/Studio 2.0/data`
+        - Win: `FIXME`
+    - Create a backup from the file (e.g.: `StudioColorDefinition-orig.txt`)
+    - Add these lines to the end OR symlink the file provided from this repository.
+```txt
+3000	3000	3000	3000	RR V2 Gray	RR V2 Gray	RR V2 Gray	RR V2 Gray	#253746	1	Solid Colors	1	o		47,21,0,73	Revolution Robotics
+3001	3001	3001	3001	RR V2 Yellow	RR V2 Yellow	RR V2 Yellow	RR V2 Yellow	#FFD700	1	Solid Colors	1	o		0,16,100,0	Revolution Robotics
+3002	3002	3002	3002	RR V2 Green	RR V2 Green	RR V2 Green	RR V2 Green	#44D62C	1	Solid Colors	1	o		68,0,79,16	Revolution Robotics
+3003	3003	3003	3003	RR V2 Purple	RR V2 Purple	RR V2 Purple	RR V2 Purple	#5F259F	1	Solid Colors	1	o		40,77,0,38	Revolution Robotics
+```
 
-## Build instruction creation & know-how
-- [Notion link](https://www.notion.so/steamacademypro/Build-instructions-e2ea71c0967e452e86dd69178eddef85)
+6. You need to define the same colours for eyesight to be able to create the renders from the instruction maker. 
+    - Locate the `settings_v1.xml`
+        - Mac: `/Applications/Studio 2.0/PhotoRealisticRenderer/mac/`
+        - Win: `FIXME`
+    - Create a backup from the file (e.g.: `settings_v1-orig.xml`)
+    - Add these lines BEFORE the Solid-WHITE section OR symlink the file provided file from this repository.
+```xml
+<!-- REVOLUTION ROBOTICS SOLID COLORS -->
+  <material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR_V2_GRAY" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+        <input name="BaseColor" type="color" />
+        <input name="SubsurfaceColor" type="color" />
+        <output name="Shader" type="closure" />
+      </group>
+      <color name="RGB" value="0.1450980392 0.2156862745 0.2745098039" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+      <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+    </shader>
+  </material>
+  <material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR_V2_YELLOW" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+        <input name="BaseColor" type="color" />
+        <input name="SubsurfaceColor" type="color" />
+        <output name="Shader" type="closure" />
+      </group>
+      <color name="RGB" value="1.0 0.8431372549 0.0" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+      <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+    </shader>
+  </material>
+  <material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR_V2_GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+        <input name="BaseColor" type="color" />
+        <input name="SubsurfaceColor" type="color" />
+        <output name="Shader" type="closure" />
+      </group>
+      <color name="RGB" value="0.2666666667 0.8392156863 0.1725490196" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+      <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+    </shader>
+  </material>
+  <material displacement_method="bump" heterogeneous_volume="False" name="SOLID-RR_V2_PURPLE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <group group_name="SOLID-GROUP" name="SOLID-GROUP">
+        <input name="BaseColor" type="color" />
+        <input name="SubsurfaceColor" type="color" />
+        <output name="Shader" type="closure" />
+      </group>
+      <color name="RGB" value="0.3725490196 0.1450980392 0.6235294118" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
+      <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
+      <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
+    </shader>
+  </material>
+  <!-- /REVOLUTION ROBOTICS SOLID COLORS -->
+```
 
-## All robot builds
-- [Drive link](https://drive.google.com/drive/folders/1K5lteZ-coDv6EaQ5NzyZrNBuxguR_WlL)
+7. Add the Stud.io **User data** to its place
+    - Locate the `User data folder`
+        - Mac: `~/.local/share/Stud.io/`
+        - Win: `%LOCALAPPDATA%\Stud.io\`
+    - Symlink or Copy the content of **Stud.io-user-resources**
 
-## Symlinking examples
-- In this MAC example I store this repository under `/Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw`. This is the path you want to replace with yours. The Stud.io app data is stored under `/Users/laszlobekessy/.local/share/Stud.io/`
+See full setup example commands below
+
+## Full setup examples
+### Mac
+- In this MAC example I store this repository under `/Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw`
+1. Core application files
+    - **Make backups**: 
+        - `mv /Applications/Studio\ 2.0/data/StudioColorDefinition.txt /Applications/Studio\ 2.0/data/StudioColorDefinition-orig.txt`
+        - `mv /Applications/Studio\ 2.0/PhotoRealisticRenderer/mac/settings_v1.xml /Applications/Studio\ 2.0/PhotoRealisticRenderer/mac/settings_v1-orig.xml`
+    - **Symlink**
+        - `ln -s /Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw/Stud.io-core-resources/mac/data/* /Applications/Studio\ 2.0/data/`
+        - `ln -s /Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw/Stud.io-core-resources/mac/PhotoRealisticRenderer/mac/* /Applications/Studio\ 2.0/PhotoRealisticRenderer/mac/`
+2. User specific files
+    - **Delete existing resources**: `rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomParts/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/Instruction/`
+    - **Symlink for all items**: `ln -s /Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw/Stud.io-user-resources/* /Users/laszlobekessy/.local/share/Stud.io/`
+
+
+
+# Version 1: from 2018 to 2024-06
+## Setup Bricklink Stud.io for build instruction creation
+1. We use **BrickLink LEGO Studio** for the build instructions. Download it here: https://www.bricklink.com/v3/studio/download.page
+2. **Install & Start** the Studio app for the first time to initialise folders
+3. After the first successful start close Studio
+4. Add the Stud.io **User data** to its place
+    - Locate the `User data folder`
+        - Mac: `~/.local/share/Stud.io/`
+        - Win: `%LOCALAPPDATA%\Stud.io\`
+    - Symlink or Copy the content of **Stud.io-user-resources**
+
+See full setup example commands below
+
+## Full setup examples
+### Mac
+- In this MAC example I store this repository under `/Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw`
     - **Delete existing resources**: `rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomParts/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/Instruction/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomColors/`
-    - **Symlink for all items**: `ln -s /Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw/Stud.io\ resources/* /Users/laszlobekessy/.local/share/Stud.io/`
-    - If you want to use a different version of the kit, just symlink the coddect folder, e.g.: `v1-from-2018-to-2024-06`
+    - **Symlink for all items**: `ln -s /Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw/Stud.io-user-resources/v1-from-2018-to-2024-06/* /Users/laszlobekessy/.local/share/Stud.io/`

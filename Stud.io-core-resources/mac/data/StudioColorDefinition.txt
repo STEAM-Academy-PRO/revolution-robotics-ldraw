@@ -5,7 +5,7 @@ Studio Color Code	BL Color Code	LDraw Color Code	LDD color code	Studio Color Nam
 6	6	2	28	Green	Green	Green	Dark green	#24793D	1	Solid Colors	12	o		70,0,50,53
 6		2	210	Green		Green	Faded Green	#24793D	1	Solid Colors	12	from_lego		
 39	39	3	107	Dark Turquoise	Dark Turquoise	Dark_Turquoise	Bright bluish green	#00828E	1	Solid Colors	15	o		100,8,0,44
-5	5	4	21	Red	Red	Red	Bright red	#FFD700	1	Solid Colors	1	o		0,16,100,0
+5	5	4	21	Red	Red	Red	Bright red	#C81908	1	Solid Colors	1	o		0,16,100,0
 47	47	5	221	Dark Pink	Dark Pink	Dark_Pink	Bright Purple	#C76F9F	1	Solid Colors	0	o		0,44,20,22
 8	8	6	25	Brown	Brown	Brown	Earth Orange	#573826	1	Solid Colors	4	o		0,36,56,66
 8		6	108	Brown		Brown	Earth Yellow	#573826	1	Solid Colors	4	from_lego		0,36,56,66

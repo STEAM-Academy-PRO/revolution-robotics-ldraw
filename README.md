@@ -46,7 +46,10 @@ Use the parts fitting your model version and don't forget to change the setup if
         <input name="SubsurfaceColor" type="color" />
         <output name="Shader" type="closure" />
       </group>
-      <color name="RGB" value="0.1450980392 0.2156862745 0.2745098039" />
+      <!-- This would be the RGB for #253746 BUT on render colours are more washed out, so we increase the saturation/brightness manually -->
+      <!-- <color name="RGB" value="0.1450980392 0.2156862745 0.2745098039" /> -->
+      <!-- This is the RGB value for #141E27 -->
+      <color name="RGB" value="0.078 0.118 0.153" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
       <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
@@ -59,6 +62,7 @@ Use the parts fitting your model version and don't forget to change the setup if
         <input name="SubsurfaceColor" type="color" />
         <output name="Shader" type="closure" />
       </group>
+      <!-- Yellow is kept untouched at #253746 -->
       <color name="RGB" value="1.0 0.8431372549 0.0" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
@@ -72,7 +76,10 @@ Use the parts fitting your model version and don't forget to change the setup if
         <input name="SubsurfaceColor" type="color" />
         <output name="Shader" type="closure" />
       </group>
-      <color name="RGB" value="0.2666666667 0.8392156863 0.1725490196" />
+      <!-- This would be the RGB for #44D62C BUT on render colours are more washed out, so we increase the saturation/brightness manually -->
+      <!-- <color name="RGB" value="0.2666666667 0.8392156863 0.1725490196" /> -->
+      <!-- This is the RGB value for #3CC326 -->
+      <color name="RGB" value="0.235 0.765 0.149" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
       <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />
@@ -85,7 +92,10 @@ Use the parts fitting your model version and don't forget to change the setup if
         <input name="SubsurfaceColor" type="color" />
         <output name="Shader" type="closure" />
       </group>
-      <color name="RGB" value="0.3725490196 0.1450980392 0.6235294118" />
+      <!-- This would be the RGB for #5F259F BUT on render colours are more washed out, so we increase the saturation/brightness manually -->
+      <!-- <color name="RGB" value="0.3725490196 0.1450980392 0.6235294118" /> -->
+      <!-- This is the RGB value for #341458 -->
+      <color name="RGB" value="0.204 0.078 0.345" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="BaseColor" />
       <connect from_node="RGB" from_socket="Color" to_node="SOLID-GROUP" to_socket="SubsurfaceColor" />
       <connect from_node="SOLID-GROUP" from_socket="Shader" to_node="Output" to_socket="Surface" />

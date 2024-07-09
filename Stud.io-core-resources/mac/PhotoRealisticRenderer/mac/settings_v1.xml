@@ -3350,7 +3350,7 @@
         <input name="Metallic" type="float" value="0.000000" />
         <output name="BSDF" type="closure" />
       </group>
-      <connect from_node="RGB" from_socket="Color" to_node="PEARL-GROUP" to_socket="Color" />
+      <connect from_node="RGB"t_metsocket="Color" to_node="PEARL-GROUP" to_socket="Color" />
       <connect from_node="PEARL-GROUP" from_socket="BSDF" to_node="Output" to_socket="Surface" />
     </shader>
   </material>
@@ -3663,7 +3663,7 @@
       <connect from_node="TRANS-GROUP_BASE" from_socket="Volume" to_node="Output" to_socket="Volume" />
     </shader>
   </material>
-  <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+  <material displacement_method="bump" hthod=ume="False" name="TRANS-GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
     <shader>
       <color name="RGB_White" value="1.0 1.0 1.0" />
       <group group_name="TRANS-GROUP_BASE" name="TRANS-GROUP_BASE">
@@ -3780,7 +3780,23 @@
       <connect from_node="TRANS-GROUP_BASE" from_socket="Volume" to_node="Output" to_socket="Volume" />
     </shader>
   </material>
-  <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-MEDIUM_BLUE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+  <material displacement_method="bump" heterogeneous_volume"False" name="TRANS-VERY_LIGHT_BLUE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interoupPrincipleume="False" name="TRANS-GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <color name="RGB_White" value="1.0 1.0 1.0" />
+      <group group_name="TRANS-GROUP_BASE" name="TRANS-GROUP_BASE">
+        <input name="WhiteColor" type="color" />
+        <input name="Color" type="color" />
+        <output name="Shader" type="closure" />
+        <output name="Volume" type="closure" />
+        <output name="Normal" type="vector" />
+      </group>
+    YQVPH=9ZY*+]i\ukbhet="WhiteColor" />
+      <connect from_node="RGB" from_socket="Color" to_node="TRANS-GROUP_BASE" to_socket="Color" />
+      <connect from_node="TRANS-GROUP_BASE" from_socket="Shader" to_node="Output" to_socket="Surface" />
+      <connect from_node="TRANS-GROUP_BASE" from_socket="Volume" to_node="Output" to_socket="Volume" />
+    </shader>
+  </material>
+  <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-DARK_PINK" use_ use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
     <shader>
       <group group_name="TRANS-GROUP_BASE" name="TRANS-GROUP_BASE">
         <input name="WhiteColor" type="color" />
@@ -3834,6 +3850,21 @@
   <material displacement_method="bump" heterogeneous_volume="False" name="TRANS-LIGHT_GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
     <shader>
       <color name="RGB_White" value="1.0 1.0 1.0" />
+      <group group_name="TRANS-GROUP_BASE" name="TRANS-GROUP_BASE">
+        <input name="WhiteColor" type="color" />
+        <input name="Color" type="color" />
+        <output name="Shader" type="closure" />
+        <output name="Volume" type="closure" />
+        <output name="Normal" type="vector" />
+      </group>
+      <color name="RGB" value="0.58 0.898 0.67" />
+      <connect from_node="RGB_White" from_socket="Color" to_node="TRANS-GROUP_BASE" to_socket="WhiteColor" />
+      <connect from_node="TRANS-GROUP_BASE" from_socket="Shader" to_node="Output" to_socket="Surface" />
+      <connect from_node="RGB" from_socket="Color" to_node="TRANS-GROUP_BASE" to_socket="Color" />
+      <connect from_REDDISHs heterogeneous_volume="False" name="TRANS-PINK" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <color name="RGB_White" value="1.0 1.0 1.0" />
+      <group group_name="TRANS-GROUP_BASE" n]ke="TRANS-DR0 1.0" />
       <group group_name="TRANS-GROUP_BASE" name="TRANS-GROUP_BASE">
         <input name="WhiteColor" type="color" />
         <input name="Color" type="color" />
@@ -5033,9 +5064,19 @@
     <shader>
       <group group_name="RUBBER-GROUP" name="RUBBER-GROUP">
         <input name="BaseColor" type="color" />
+    ut name="BaseColor" type="color" />
+        <input name="SubsurfaceColor" type="colo="Shader" to_node="GroupOutput" to_socket="BSDF" />
+    </shader>
+  </group>
+  <material displacement_method="bump" heterogeneous_volume="False" name="RUBBER-BLACK" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <color name="RGB" value="0.01 0.009653335 0.0092" />
+      <group group_name="RUBBER-ement_mp" heterogeneous_volume="False" name="RUBBER-SAND_GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
+    <shader>
+      <group group_name="RUBBER-GROUP" name="RUBBER-GROUP">
+        <input name="BaseColor" type="color" />
         <input name="SubsurfaceColor" type="color" />
-        <output name="BSDF" type="closure" />
-      </group>
+        <output name="BSDF" type="closure7882 0.58et      </group>
       <color name="RGB" value="0.406009 0.549804 0.07189742" />
       <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="BaseColor" />
       <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="SubsurfaceColor" />
@@ -5387,73 +5428,4 @@
       <color name="RGB" value="1 0.941 0.90" />
       <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="BaseColor" />
       <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="SubsurfaceColor" />
-      <connect from_node="RUBBER-GROUP" from_socket="BSDF" to_node="Output" to_socket="Surface" />
-    </shader>
-  </material>
-  <material displacement_method="bump" heterogeneous_volume="False" name="RUBBER-BRIGHT_GREEN" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
-    <shader>
-      <group group_name="RUBBER-GROUP" name="RUBBER-GROUP">
-        <input name="BaseColor" type="color" />
-        <input name="SubsurfaceColor" type="color" />
-        <output name="BSDF" type="closure" />
-      </group>
-      <color name="RGB" value="0.02987802 0.35 0.07256099" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="BaseColor" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="SubsurfaceColor" />
-      <connect from_node="RUBBER-GROUP" from_socket="BSDF" to_node="Output" to_socket="Surface" />
-    </shader>
-  </material>
-  <material displacement_method="bump" heterogeneous_volume="False" name="RUBBER-MEDIUM_BLUE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
-    <shader>
-      <group group_name="RUBBER-GROUP" name="RUBBER-GROUP">
-        <input name="BaseColor" type="color" />
-        <input name="SubsurfaceColor" type="color" />
-        <output name="BSDF" type="closure" />
-      </group>
-      <color name="RGB" value="0.1771999 0.3786118 0.6605883" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="BaseColor" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="SubsurfaceColor" />
-      <connect from_node="RUBBER-GROUP" from_socket="BSDF" to_node="Output" to_socket="Surface" />
-    </shader>
-  </material>
-  <material displacement_method="bump" heterogeneous_volume="False" name="RUBBER-YELLOW" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
-    <shader>
-      <group group_name="RUBBER-GROUP" name="RUBBER-GROUP">
-        <input name="BaseColor" type="color" />
-        <input name="SubsurfaceColor" type="color" />
-        <output name="BSDF" type="closure" />
-      </group>
-      <color name="RGB" value="1 0.6666667 0" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="BaseColor" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="SubsurfaceColor" />
-      <connect from_node="RUBBER-GROUP" from_socket="BSDF" to_node="Output" to_socket="Surface" />
-    </shader>
-  </material>
-  <material displacement_method="bump" heterogeneous_volume="False" name="RUBBER-RED" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
-    <shader>
-      <group group_name="RUBBER-GROUP" name="RUBBER-GROUP">
-        <input name="BaseColor" type="color" />
-        <input name="SubsurfaceColor" type="color" />
-        <output name="BSDF" type="closure" />
-      </group>
-      <color name="RGB" value="0.6 0.007843138 0.007843138" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="BaseColor" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="SubsurfaceColor" />
-      <connect from_node="RUBBER-GROUP" from_socket="BSDF" to_node="Output" to_socket="Surface" />
-    </shader>
-  </material>
-  <material displacement_method="bump" heterogeneous_volume="False" name="RUBBER-ORANGE" use_local_tuning="False" use_mis="True" use_transparent_shadow="True" volume_interpolation_method="linear" volume_sampling_method="multiple_importance">
-    <shader>
-      <group group_name="RUBBER-GROUP" name="RUBBER-GROUP">
-        <input name="BaseColor" type="color" />
-        <input name="SubsurfaceColor" type="color" />
-        <output name="BSDF" type="closure" />
-      </group>
-      <color name="RGB" value="1 0.2083333 0" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="BaseColor" />
-      <connect from_node="RGB" from_socket="Color" to_node="RUBBER-GROUP" to_socket="SubsurfaceColor" />
-      <connect from_node="RUBBER-GROUP" from_socket="BSDF" to_node="Output" to_socket="Surface" />
-    </shader>
-  </material>
-  <include src="settings_camera_light.xml" />
-</eyesight>
+      <connect from_node="RUBBER-GROUP" from_socket="BSDF" to_node="Output" to_s

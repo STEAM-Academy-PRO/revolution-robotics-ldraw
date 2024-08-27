@@ -17,11 +17,12 @@ Use the parts fitting your model version and don't forget to change the setup if
 3. After the first successful start close Studio
 4. Locate the **core application folder**
     - Mac: `/Applications/Studio 2.0/`
-    - Win: `FIXME`
+    - Win: `C:\Program Files\Studio 2.0\`
 5. You need to **define the kit colors** for the instruction maker. 
     - Locate the `StudioColorDefinition.txt`
         - Mac: `/Applications/Studio 2.0/data`
-        - Win: `FIXME`
+        - Win: `C:\Program Files\Studio 2.0\data`
+            - *TIP*: use VSCode for editing, when saving, it auto suggests Save as Admin when saving failed due to permissions
     - Create a backup from the file (e.g.: `StudioColorDefinition-orig.txt`)
     - Add these lines to the end OR symlink the file provided from this repository.
 ```txt
@@ -34,7 +35,7 @@ Use the parts fitting your model version and don't forget to change the setup if
 6. You need to define the same colours for eyesight to be able to create the renders from the instruction maker. 
     - Locate the `settings_v1.xml`
         - Mac: `/Applications/Studio 2.0/PhotoRealisticRenderer/mac/`
-        - Win: `FIXME`
+        - Win: `C:\Program Files\Studio 2.0\PhotoRealisticRenderer\win\64\`
     - Create a backup from the file (e.g.: `settings_v1-orig.xml`)
     - Add these lines BEFORE the Solid-WHITE section OR symlink the file provided file from this repository.
 ```xml

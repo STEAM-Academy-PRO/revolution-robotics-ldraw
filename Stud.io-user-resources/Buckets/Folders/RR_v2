@@ -1,0 +1,259 @@
+~*RR_v2
+17
+-1
+0 cp1x1.dat
+1 Connector Pin 1+1
+2 3001
+4 70
+0 cp2x1.dat
+1 Connector Pin 2+1
+2 3002
+4 20
+0 cp2x2.dat
+1 Connector Pin 2+2
+2 3003
+4 20
+0 ping_pong.dat
+1 Ping Pong Ball
+2 1
+4 4
+0 us.dat
+1 Ultrasonic Sensor Electronic
+2 3001
+4 1
+0 bu.dat
+1 Button Electronic
+2 3003
+4 1
+0 cw.dat
+1 Caster Wheel
+2 3001
+4 2
+0 ct2x2.dat
+1 Connector Triangle with Pins 2x2
+2 3001
+4 12
+0 cc2x2.dat
+1 Connector Box Corner with Pins 2x2
+2 3001
+4 12
+0 a135.dat
+1 Angled Beam 135
+2 3001
+4 4
+0 a90l.dat
+1 Angled Beam 90 3x3
+2 3001
+4 8
+0 a120.dat
+1 Angled Beam 120
+2 3002
+4 4
+0 a90t.dat
+1 Angled Beam T shape 90 3x3
+2 3002
+4 4
+0 cb4h.dat
+1 Curved Beam 4
+2 3003
+4 4
+0 cb6h.dat
+1 Curved Beam 6
+2 3003
+4 6
+0 s2x1.dat
+1 Straight Beam 2x1
+2 3001
+4 4
+0 s3x1.dat
+1 Straight Beam 3x1
+2 3001
+4 4
+0 s1x1.dat
+1 Straight Beam 1x1
+2 3001
+4 8
+0 cc1x1.dat
+1 Connector with Pin 1x1
+2 3001
+4 9
+0 axp2c.dat
+1 Axel with Cap 2
+2 3002
+4 6
+0 axp3c.dat
+1 Axel with Cap 3
+2 3002
+4 4
+0 axp4s.dat
+1 Axel Straight 4
+2 3002
+4 4
+0 axp2p.dat
+1 Axel with Pin 1+1
+2 3000
+4 4
+0 axp4p.dat
+1 Axel with Pin 1+4
+2 3000
+4 4
+0 axp6s.dat
+1 Axel Straight Metal 6
+2 383
+4 2
+0 axp12s.dat
+1 Axel Straight Metal 12
+2 383
+4 2
+0 ba.dat
+1 Battery Case
+2 3000
+4 1
+0 brain.dat
+1 Brain
+2 3000
+4 1
+0 s4x3.dat
+1 Straight Beam, Plain 4x3
+2 3002
+4 4
+0 s4x4.dat
+1 Straight Beam, Plain 4x4
+2 3002
+4 4
+0 s8x4.dat
+1 Straight Beam, Plain 8x4
+2 3002
+4 4
+0 we5x4.dat
+1 Wedge, Triangular 5x4
+2 3002
+4 4
+0 rb3.dat
+1 Round Beam 3
+2 3000
+4 2
+0 rb4.dat
+1 Round Beam 4
+2 3000
+4 4
+0 rb8.dat
+1 Round Beam 8
+2 3004
+4 4
+0 rb12.dat
+1 Round Beam 12
+2 3004
+4 4
+0 rb16.dat
+1 Round Beam 16
+2 3004
+4 4
+0 mo.dat
+1 Motor
+2 3004
+4 4
+0 mo_horn.dat
+1 Motor Horn
+2 3001
+4 4
+0 mo_no_horn.dat
+1 Motor No Horn
+2 3004
+4 4
+0 wh.dat
+1 Wheel
+2 3001
+4 4
+0 g20.dat
+1 Gear 20
+2 3001
+4 6
+0 g40.dat
+1 Gear 40
+2 3001
+4 6
+0 g60.dat
+1 Gear 60
+2 3002
+4 4
+0 el8.dat
+1 Gear Rack 8
+2 3001
+4 6
+0 cg40.dat
+1 Crown Gear 40
+2 3004
+4 1
+0 wg30.dat
+1 Worm Gear 30
+2 3004
+4 1
+0 axb1.dat
+1 Axle Beam 3x1
+2 3002
+4 4
+0 axb3.dat
+1 Axle Beam, Cross 3x3
+2 3002
+4 4
+0 s4x1.dat
+1 Straight Beam 4x1
+2 3002
+4 6
+0 s5x1.dat
+1 Straight Beam 5x1
+2 3002
+4 6
+0 s8x1.dat
+1 Straight Beam 8x1
+2 3000
+4 8
+0 s12x1.dat
+1 Straight Beam 12x1
+2 3000
+4 4
+0 s16x1.dat
+1 Straight Beam 16x1
+2 3004
+4 4
+0 s4x2.dat
+1 Straight Beam 4x2
+2 3002
+4 6
+0 s6x2.dat
+1 Straight Beam 6x2
+2 3002
+4 6
+0 s8x2.dat
+1 Straight Beam 8x2
+2 3000
+4 8
+0 s10x2.dat
+1 Straight Beam 10x2
+2 3000
+4 8
+0 s18x2.dat
+1 Straight Beam 18x2
+2 3004
+4 4
+0 s24x2.dat
+1 Straight Beam 24x2
+2 3004
+4 4
+0 aa_battery.dat
+1 AA Battery
+2 3004
+4 6
+0 8p8c_plug.dat
+1 8p8c Plug RJ45 Connector
+2 12
+4 16
+0 whrm.dat
+1 Wheel Rim
+2 3001
+4 4
+0 whtm.dat
+1 Tyre
+2 1007
+4 4

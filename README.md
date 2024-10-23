@@ -147,3 +147,31 @@ See full setup example commands below
 - In this MAC example I store this repository under `/Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw`
     - **Delete existing resources**: `rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomParts/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/Instruction/ && rm -rf /Users/laszlobekessy/.local/share/Stud.io/CustomColors/`
     - **Symlink for all items**: `ln -s /Users/laszlobekessy/Dev/steamacademy/revolution-robotics-ldraw/Stud.io-user-resources/v1-from-2018-to-2024-06/* /Users/laszlobekessy/.local/share/Stud.io/`
+
+---
+
+Notes:
+
+Inside `Stud.io-user-resources` there is a `Bucket/Folders` folder, and it contains the lists for both our Revolution Robotics Part collection and their respective counts, I also put here our LEGO Spike Prime and Spike Essential kits, so all assets used by STEAM academy is in one place.
+
+Studio's format for parts collection is not documented anywhere however it's pretty straight forward from looking at an example:
+
+Header:
+```txt
+~*RR_v2    <- name of the list
+17         <- have no clue
+-1         <- always -1 for some reason
+```
+
+From there tuples indexed 0, 1, 2, 4 piece description follows
+```txt
+0 67351c01.dat             <- filename (this is a LEGO)
+1 Electric Powered HUB     <- description
+2 15                       <- color index
+4 1                        <- number of pieces in set
+0 ct2x2.dat                         <- filename (this is RR)
+1 Connector Tangential with Pins    <- description
+2 3001                              <- our special colors!
+4 12                                <- number of pieces in set
+...
+```
